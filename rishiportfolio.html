@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Portfolio</title>
+        <style>
+            * {
+            
+            
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+            #nav{
+                display: flex;
+                background-color: rgb(26, 24, 24);
+                position:sticky;
+                top: 0;
+            }
+            #nav-items{
+                margin-left: 900px;
+                margin-top: 20px;
+                
+            }
+
+            a{
+                margin-left: 20px;
+                color: white;
+                text-decoration: none;
+            }
+             #nav-items a:hover {
+            color: #00e5ff;
+        }
+
+
+            #home-content{
+             width: 400px;
+            }
+
+            #home{
+                display:flex;
+                background-color: rgb(0, 0, 0);
+                padding-top: 50px;
+                padding-left:50px;
+                padding-bottom: 70px;
+                color: #fafeff;
+                
+            }
+             #home-image {
+                margin-left: 600px;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 3px solid #ec00c8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 40px rgb(223, 18, 213);
+        }
+        
+
+        #home-image img {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+            p{
+                font-size: 20px;
+            }
+
+                   #about {
+            padding: 90px 10%;
+            
+            background-color: #0e0e0e;
+        }
+        
+
+        #about h2{
+            text-align: center;
+            box-shadow: #00e5ff;
+            font-size: 35px;
+            margin-bottom: 45px;
+            color: #00e5ff;
+        }
+        #about p{
+            color: white;
+        }
+        #skills w{
+            background-color: #020202;
+        }
+
+
+
+            #skills h2{
+                text-align: center;
+                color: #00e5ff;
+            
+            }
+
+            .frontend{
+                border: 1px solid violet;
+                border-radius: 12px;
+                padding: 30px;
+                width: 300px;
+                
+                float: left;
+                margin-left: 150px;
+                background-color: #222222;
+            }
+                
+
+           
+
+            .backend{
+                border: 1px solid rgb(92, 27, 149);
+                width: 300px;
+                float: right;
+                border-radius: 12px;
+                padding: 30px;
+                margin-right: 150px;
+                background-color :#222222;
+            }
+            .editing{
+                
+                border: 1px solid violet;
+                border-radius: 12px;
+                padding: 30px;
+                width: 300px;
+                float: right;
+                margin-right: 50px;
+                background-color:#222222;
+                margin-top: -230px;
+            }
+           
+            
+            #skills{
+                background-color: #000000;
+                padding-bottom: 250px;
+                color: white;
+                padding-top: 10px;
+            }
+
+            #skills h3{
+                text-align: center;
+                display: flexbox;
+                color: #9500ff;
+            }
+            #contact{
+                
+               padding: 90px ;
+            background-color: #0e0e0e;
+            text-align: center;
+            }
+            #contact h2{
+                color: #00e5ff;
+            }
+            #contact p{
+                color: white;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+              #contact-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .contact-card {
+            width: 280px;
+            padding: 30px;
+            background-color: #222222;
+            border: 1px solid #252525;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .contact-card:hover {
+            border-color: #ff6a00;
+            transform: translateY(-10px);
+        }
+
+        .contact-card h3 {
+            color: #00e5ff;
+            margin-bottom: 12px;
+        }
+
+        .contact-card a {
+            color: #ffffff;
+            text-decoration: none;
+            word-break: break-word;
+        }
+
+        .contact-card a:hover {
+            color: #4400ff;
+        }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <h3 style="padding-left: 15px; color: aqua;">RISHI KARTHIKEYA</h3>
+            <div id="nav-items">
+                <a   href="#">HOME</a>
+                <a href="#about" style="color: ;">ABOUT</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+        </div>
+
+
+        <div id="home">
+            <div id="home-content">
+                <h2 style="color: #eaeff0;">I'm</h2>
+                <h2 style="margin-left: 30px; color: #00e5ff; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">RISHI </h2>
+                <h2 style="color: #eaeff0;">KARTHIKEYA</h2>
+                <p>I am Rishi Karthikeya, a passionate video editor and aspiring full stack web developer. I enjoy creating creative videos and developing useful and attractive websites.</p>
+            </div>
+            <div id="home-image">
+                <img src="imge.jpg"  alt="Roadmap">
+            </div>
+        </div>
+
+        <div id="about">
+            <h2>ABOUT ME</h2>c:
+             <p>
+            I am Rishi Karthikeya, a passionate and aspiring full stack
+            web developer. I enjoy combining creativity with technology to
+            create content and digital experiences that stand out.
+        </p>
+
+        <h3>Let Me Introduce Myself </h3>
+           
+        <p>
+           MORE ABOUT ME
+        </p>
+
+        <p>
+            I am developing my skills in full stack
+            development. I enjoy building websites, understanding how
+            frontend and backend systems work together, and turning ideas
+            into functional applications.
+        </p>
+
+        <p>
+            My goal is to become someone who can work on both sides of
+            creativity and technology — creating powerful visual content
+            while also developing modern and useful web applications.Yes im a slow learner but once i grab it i wont loose it..
+        </p>
+
+           
+           
+        </div>
+     
+        <div id="skills">
+        <h2 >SKILLS</h2>
+<div class="frontend">
+
+          <h3>Frontend Development</h3>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Web Design</li>
+                    <li>React</li>
+                </ul>
+            </div>
+
+
+            <div class="backend">
+                <h3>Backend Development</h3>
+
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>SQL</li>
+                    <li>Database Fundamentals</li>
+                </ul>
+            </div>
+
+
+           
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <div id="contact">
+
+        <h2>CONTACT ME</h2>
+
+        <p>
+            Have a project, collaboration or idea? Feel free to reach out.
+        </p>
+
+        <div id="contact-container">
+
+            <div class="contact-card">
+                <h3>Instagram</h3>
+
+                <a href="https://www.instagram.com/ karthikeya_choragudi_/?__pwa=1" target="_blank">
+                    @__karthikeya_choragudi
+                </a>
+            </div>
+            <div class="contact-card">
+                <h3>Email</h3>
+
+                <a href="#">
+                    rishikarthikeyachoragudi@gmail.com
+                </a>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
